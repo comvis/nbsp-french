@@ -44,6 +44,7 @@ if ( ! class_exists( 'NbspFrench' ) ) {
 			'widget_title'                  => 1000,
 			'widget_text'                   => 1000,
 			'woocommerce_short_description' => 1000,
+			'acf/load_value'                => 1000, // Add all ACF values
 		);
 
 		public function __construct() {
